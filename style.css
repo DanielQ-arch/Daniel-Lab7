@@ -30,3 +30,26 @@
     font-size: 24px;
     transition: 0.3s;
 }
+
+.transition-image{
+    width: 100px;
+    height: 100px;
+    opacity: 1;
+    transition: all;
+}
+
+.transition-image:hover{
+    opacity: 0.5;
+    transition:0.8s;
+}
+
+.scale-div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    transition: all;
+}
+
+.scale-div:hover{
+    transform: scale(1.5);
+}
