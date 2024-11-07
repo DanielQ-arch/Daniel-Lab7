@@ -3,3 +3,8 @@
     color: white;
     transition: all;
 }
+
+.transition-button:hover{
+    background-color: red;
+    transition: 0.5s;
+}
