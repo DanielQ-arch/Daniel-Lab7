@@ -63,3 +63,23 @@
 .scale-image:hover{
     transform: scale(0.75);
 }
+
+.translate-button{
+    transition: all 0.5s;
+}
+
+.translate-button:hover{
+    transform:translate(50px,20px);
+}
+
+.translate-div{
+    height: 100px;
+    width:100px;
+    background-color:gray;
+    transition: all 0.5s;
+}
+
+.translate-div:hover{
+    transform:translate(-100px)
+
+}
